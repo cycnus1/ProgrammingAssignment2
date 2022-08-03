@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## this function stores the matrix and its inverse, if exists, and gets the matrix and its inverse when needed
 
 makeCacheMatrix <- function(x = matrix()) {
        m <- NULL
@@ -19,8 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
     
     
-    ## Write a short comment describing this function
-    
+    ## this function retrive the inverse of a function when exist or calculate it when it does not exists
+
 cacheSolve <- function(x, ...) {
       m <- x$getinverse()
       if(!is.null(m)) {
